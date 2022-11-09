@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    border: 1px solid green;
+    box-shadow: 0 0 21px green;
+}
+
+.cpanel {
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    /* flex-wrap: wrap;*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cpanel button, .cpanel input[type="file"]  {
+    background-color: #365284;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.cpanel button:hover {
+    background-color: #456fb6;
+}
+
+.cpanel button.hard{
+    
+    background-color: #8e142a;
+}
+
+.cpanel button.hard:hover{
+    
+    background-color: #a7485a;
+}
+
+.cpanel input[type=text] {
+
+    padding: 10px;
+    border-radius: 3px;
+    border: 0px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.vlsep {
+    border-right: 1px solid #98beff;
+    border-left: 1px solid #3e5f99;
+    display: inline-flex;
+    margin: 0 10px;
+    height: 36px;
+    content: 'a';
+    line-height: 29px;
+}

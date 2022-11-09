@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    border: 1px solid green;
+    box-shadow: 0 0 21px green;
+}
+
+.listPanel {
+    background-color: #f3c86a;
+    padding: 10px;
+    border-radius: 3px;
+    width: fit-content;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 12px 5px 0;
+}
+
+.listPanel .listTitle{
+    
+    background-color: #e1a23b;
+    padding: 10px;
+    margin: -10px -10px 10px -10px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+/*
+.listPanel .listTitle.openList{
+
+}
+*/
+.listPanel .listCPanel{
+    display: flex;
+}
+
+.listPanel button {
+    background-color: #cb8e2a;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    padding: 2px 10px;
+    color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 0 0 0 -3px;
+    font-size: 24px;
+}
+
+.listPanel button:hover {
+    background-color: #b08745;
+    
+}
+
+.listPanel input[type="text"] {
+    padding: 10px;
+    border-radius: 3px 0 0 3px;
+    border: 0px;    
+    box-sizing: border-box;
+    outline: none;
+}
+
+.listPanel .vlsep {
+    border-right: 1px solid #ecc382;
+    border-left: 1px solid #cb8e2a;
+    display: inline-flex;
+    margin: 0 10px;
+    height: 36px;
+    content: 'a';
+    line-height: 29px;
+}
+
+.listPanel ul {
+    display: block;
+    padding: 0 0 0 3px;
+}
+
+.listPanel ul li{
+    list-style: none;
+    color: #684101;
+    margin: 0 0 2px 0;
+}
+
+.listPanel .pullout{
+    color: #b5914d;
+    text-decoration: line-through;
+}
+
+.listPanel .delbutton{
+    background-color: #cb8e2a;
+    color: #ffc384;
+    padding: 0 4px;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+    margin: 0 0 0 6px;
+}
+
+.listPanel .delList{
+    
+    background-color: #de7121;
+    border-radius: 3px;
+    padding: 0px 6px;
+    font-size: 15px;
+    line-height: 20.5px;
+    cursor: pointer;
+}

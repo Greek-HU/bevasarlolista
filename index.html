@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cpanel.css">
+    <script src="ptool.js"></script>
+    <script src="lista.cls.js"></script>
+    <!--script src="listgroupmanager.cls.js"></script-->
+    <title>Lista</title>
+</head>
+<body>
+    <div class="cpanel">
+
+        <input type="text" name="" id="list-title" placeholder="Lista címe">
+        <button id="new-list">Új Lista</button>
+        <span class="vlsep"></span>
+        <button id="save-lists">Listák exportálása JSON-ba</button>
+        <span class="vlsep"></span>
+        <input type="file" id="load-lists" style="display: none;">
+        <button id="import-json" onclick="document.getElementById('load-lists').click();">Betöltés fájlból</button>
+        <span class="vlsep"></span>
+        <button id="clear-all-list" class="hard">Listák törlése</button>
+    </div>
+
+    <div style="height: 20px;"></div>
+
+    <div id="content">
+        <div class="container" id="list-container"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
